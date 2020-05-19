@@ -60,7 +60,7 @@ client.on("guildMemberRemove", (member) => {
 
 //bot mention
 client.on('message', message => {
-  if (message.content === '<@632570913858125824>') {
+  if (message.content === '<@712046198038593588>') {
    message.channel.send("**Usage:  ``/help``**");
   }
 }); 
@@ -81,7 +81,6 @@ client.on("message", async message => {
       .setDescription('Command list:')
       .setColor("#00FFFF")
       .addField("Server info", "/server")
-      .addField("Server icon", "/icon")
       .addField("Avatar", "/avatar [member]")
       .addField("Clear", "/clear [number]")
       .addField("Say", "/say [message]")
@@ -95,6 +94,12 @@ client.on("message", async message => {
 
  //mirror
    if(command === "mirror") {
+    message.channel.send("**MIRROR »** https://discord.gg/mVygkhv");
+  }
+
+
+ //elementclan twitter
+   if(command === "twitter") {
     message.channel.send("**MIRROR »** https://discord.gg/mVygkhv");
   }
 
