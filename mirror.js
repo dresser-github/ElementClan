@@ -100,7 +100,7 @@ client.on("message", async message => {
 
  //elementclan twitter
    if(command === "twitter") {
-    message.channel.send("**MIRROR »** https://discord.gg/mVygkhv");
+    message.channel.send("**ElementClan (EC):** https://twitter.com/ElementalClannn");
   }
 
   //server info
