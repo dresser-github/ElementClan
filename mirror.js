@@ -81,6 +81,7 @@ client.on("message", async message => {
       .setDescription('Command list:')
       .setColor("#00FFFF")
       .addField("Server info", "/server")
+      .addField("Twitter", "/twitter")
       .addField("Avatar", "/avatar [member]")
       .addField("Clear", "/clear [number]")
       .addField("Say", "/say [message]")
