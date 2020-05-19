@@ -37,7 +37,7 @@ client.on("guildMemberAdd", (member) => {
   let guild = member.guild;
   let memberid = member.user.id;
   if (guild.systemChannel) {
-    guild.systemChannel.send("<@" + memberid "> Join the server!");
+    guild.systemChannel.send("<@" + memberid + "> Join the server!");
   }
 });
 
