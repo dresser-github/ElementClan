@@ -93,6 +93,12 @@ client.on("message", async message => {
   }
 
 
+ //mirror ip
+   if(command === "mirrorip") {
+    message.channel.send("Ip: mirror.my-srv.net\nPort: 12068");
+  }
+
+
  //elementclan twitter
    if(command === "twitter") {
     message.channel.send("**ElementClan (EC):** https://twitter.com/ElementalClannn");
