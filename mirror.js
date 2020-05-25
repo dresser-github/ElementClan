@@ -94,7 +94,7 @@ client.on("message", async message => {
 
 
  //mirror ip
-   if(command === "mirrorip") {
+   if(command === "mirror-ip") {
     message.channel.send("Ip: mirror.my-srv.net\nPort: 12068");
   }
 
