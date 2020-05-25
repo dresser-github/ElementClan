@@ -93,9 +93,12 @@ client.on("message", async message => {
   }
 
 
- //mirror ip
+//mirror ip
    if(command === "mirror-ip") {
-    message.channel.send("Ip: mirror.my-srv.net\nPort: 12068");
+    const ip = new RichEmbed()  
+       .setColor("#00FFFF") 
+       .setTitle("Ip: mirror.my-srv.net\nPort: 12068") 
+    message.channel.send(ip);
   }
 
 
