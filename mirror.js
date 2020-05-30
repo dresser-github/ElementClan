@@ -89,7 +89,7 @@ client.on("message", async message => {
 
  //mirror
    if(command === "mirror") {
-    message.channel.send("**MIRROR »** https://discord.gg/mVygkhv");
+    message.channel.send("**MIRROR »** https://discord.gg/ht3sNAT");
   }
 
 
