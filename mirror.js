@@ -107,6 +107,19 @@ client.on("message", async message => {
     message.channel.send("**ElementClan (EC):** https://twitter.com/ElementalClannn");
   }
 
+
+ //itsmxrcos
+   if(command === "itsmxrcos") {
+    message.channel.send("**ItsMxrcos:** https://www.youtube.com/channel/UCzpIwD9mrzRsD3WiMCljZiw");
+  }
+
+
+ //dresser
+   if(command === "dresser") {
+    message.channel.send("**dresser:** https://www.youtube.com/DresserPrince");
+  }
+
+
   //server info
     if(command === "server") {
     let server = new Discord.RichEmbed()
