@@ -116,7 +116,7 @@ client.on("message", async message => {
 
  //dresser
    if(command === "dresser") {
-    message.channel.send("**dresser:** https://www.youtube.com/DresserPrince");
+    message.channel.send("**Dresser:** https://www.youtube.com/DresserPrince");
   }
 
 
